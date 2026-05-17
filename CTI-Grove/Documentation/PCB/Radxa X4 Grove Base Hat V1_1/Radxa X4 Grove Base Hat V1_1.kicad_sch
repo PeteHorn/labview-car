@@ -1,0 +1,7576 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a")
+	(paper "User" 300.126 578.002)
+	(lib_symbols
+		(symbol "Grove_shield_for_PI PICO v1.0-eagle-import:SWITCH-2CH-6P'90D'"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Grove_shield_for_PI PICO v1.0:6P-2CH-2.5-9.1X3.5X3.2H-90D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SWITCH-2CH-6P'90D'_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -3.81 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "CH1A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "CH1A"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "COM1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "COM1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "CH1B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "CH1B"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "CH2A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "CH2A"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted_clock
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "COM2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "COM2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "CH2B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "CH2B"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TWIG-4P-2.0-2.0_1_0"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional inverted_clock
+					(at -3.81 3.81 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at -3.81 1.27 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at -3.81 -1.27 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at -3.81 -3.81 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RadxaX4:PIN_PITCH_2.54MM_2X3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J14"
+				(at 0.254 8.382 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PIN_PITCH_2.54MM_2X3"
+				(at -12.446 8.128 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "RadxaX4:PIN6_PITCH_2.54MM_2X3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PIN_PITCH_2.54MM_2X3_1_0"
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.35) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_POWER_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 -1.905) (xy 0.3175 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Raspberry Pi Grove Base HAT v1.0-eagle-import:Raxda-RPiPico-65X56"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at -20.32 35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "2x20 2.54"
+				(at -20.32 33.655 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Raspberry Pi Grove Base HAT v1.0:RASPI_BOARD_B+HAT_DF_CF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Raxda-RPiPico-65X56_1_0"
+				(polyline
+					(pts
+						(xy -20.32 33.02) (xy 22.86 33.02)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -20.32 -27.94) (xy -20.32 33.02)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 33.02) (xy 22.86 -27.94)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 -27.94) (xy -20.32 -27.94)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -22.86 30.48 0)
+					(length 2.54)
+					(name "3V3@1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 27.94 0)
+					(length 2.54)
+					(name "5V0@1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 25.4 0)
+					(length 2.54)
+					(name "GPIO28"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 22.86 0)
+					(length 2.54)
+					(name "5V0@2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 20.32 0)
+					(length 2.54)
+					(name "GPIO29"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 17.78 0)
+					(length 2.54)
+					(name "GND@1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 15.24 0)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 12.7 0)
+					(length 2.54)
+					(name "GPIO20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 10.16 0)
+					(length 2.54)
+					(name "GND@2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 2.54)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 5.08 0)
+					(length 2.54)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 2.54 0)
+					(length 2.54)
+					(name "GPIO23"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 0 0)
+					(length 2.54)
+					(name "GPIO6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -2.54 0)
+					(length 2.54)
+					(name "GND@3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -5.08 0)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 2.54)
+					(name "GPIO22"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -10.16 0)
+					(length 2.54)
+					(name "3V3@2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -12.7 0)
+					(length 2.54)
+					(name "GPIO27"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -15.24 0)
+					(length 2.54)
+					(name "GPIO11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -17.78 0)
+					(length 2.54)
+					(name "GND@4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 30.48 180)
+					(length 2.54)
+					(name "GPIO25"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 27.94 180)
+					(length 2.54)
+					(name "GND@8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 25.4 180)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 22.86 180)
+					(length 2.54)
+					(name "GPIO14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 20.32 180)
+					(length 2.54)
+					(name "GPIO26"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 17.78 180)
+					(length 2.54)
+					(name "GPIO15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 15.24 180)
+					(length 2.54)
+					(name "GND@7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 12.7 180)
+					(length 2.54)
+					(name "GPIO13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 10.16 180)
+					(length 2.54)
+					(name "GPIO19"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 7.62 180)
+					(length 2.54)
+					(name "GPIO12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 5.08 180)
+					(length 2.54)
+					(name "GND@6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 2.54 180)
+					(length 2.54)
+					(name "GPIO7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -2.54 180)
+					(length 2.54)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -5.08 180)
+					(length 2.54)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -7.62 180)
+					(length 2.54)
+					(name "GND@5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -10.16 180)
+					(length 2.54)
+					(name "GPIO9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -12.7 180)
+					(length 2.54)
+					(name "GPIO10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -15.24 180)
+					(length 2.54)
+					(name "GPIO24"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -17.78 180)
+					(length 2.54)
+					(name "GPIO8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Raspberry Pi Grove Base HAT v1.0-eagle-import:SEEDSTUDIO-SCH-MODLIST"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SEEDSTUDIO-SCH-MODLIST_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 182.88 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -111.76) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 -111.76)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 143.51 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -111.76) (xy 0 -111.76)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 143.51 0) (xy 143.51 -111.76)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 143.51 0) (xy 160.02 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 143.51 -111.76) (xy 7.62 -111.76)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 160.02 0) (xy 160.02 -111.76)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 160.02 0) (xy 182.88 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 160.02 -111.76) (xy 143.51 -111.76)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 182.88 0) (xy 182.88 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 182.88 -3.81) (xy 182.88 -111.76)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 182.88 -111.76) (xy 160.02 -111.76)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "REV"
+					(at 1.27 -2.54 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Description"
+					(at 49.53 -2.54 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "DATE"
+					(at 147.32 -2.54 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "BY"
+					(at 172.72 -2.54 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Raspberry Pi Grove Base HAT v1.0-eagle-import:SEEEDSTUDIO-OPEN-SCH-FRAME"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Raspberry Pi Grove Base HAT v1.0:SEEEDSTUDIO-PCB-FRAME"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SEEEDSTUDIO-OPEN-SCH-FRAME_1_0"
+				(polyline
+					(pts
+						(xy 0 179.07) (xy 260.35 179.07) (xy 260.35 0) (xy 0 0) (xy 0 179.07)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 134.3025) (xy 3.81 134.3025)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 89.535) (xy 3.81 89.535)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 44.7675) (xy 3.81 44.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 175.26) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.3917 179.07) (xy 43.3917 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.3917 3.81) (xy 43.3917 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 86.7833 179.07) (xy 86.7833 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 86.7833 3.81) (xy 86.7833 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 130.175 179.07) (xy 130.175 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 130.175 3.81) (xy 130.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 143.51 16.51) (xy 175.26 16.51)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 143.51 3.81) (xy 143.51 16.51)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 143.51 3.81) (xy 175.387 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 173.5667 179.07) (xy 173.5667 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 173.5667 3.81) (xy 173.5667 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 175.387 36.83) (xy 256.54 36.83)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 175.387 25.4) (xy 175.387 36.83)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 175.387 25.4) (xy 256.54 25.4)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 175.387 16.51) (xy 175.387 25.4)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 175.387 16.51) (xy 210.82 16.51)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 175.387 10.16) (xy 175.387 16.51)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 175.387 10.16) (xy 175.387 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 175.387 3.81) (xy 210.82 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 210.82 16.51) (xy 256.54 16.51)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 210.82 10.16) (xy 175.387 10.16)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 210.82 10.16) (xy 210.82 16.51)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 210.82 10.16) (xy 233.68 10.16)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 210.82 3.81) (xy 210.82 10.16)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 210.82 3.81) (xy 233.68 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 216.9583 179.07) (xy 216.9583 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 216.9583 3.81) (xy 216.9583 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 233.68 10.16) (xy 256.54 10.16)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 233.68 3.81) (xy 233.68 10.16)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 233.68 3.81) (xy 256.54 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 175.26) (xy 3.81 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 175.26) (xy 256.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 134.3025) (xy 260.35 134.3025)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 89.535) (xy 260.35 89.535)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 44.7675) (xy 260.35 44.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 25.4) (xy 256.54 36.83)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 16.51) (xy 256.54 25.4)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 10.16) (xy 256.54 16.51)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 3.81) (xy 256.54 10.16)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A"
+					(at 1.905 156.6863 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 1.905 111.9188 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 1.905 67.1513 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 1.905 22.3838 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "1"
+					(at 21.6958 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "1"
+					(at 21.6958 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 65.0875 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 65.0875 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 108.4792 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 108.4792 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "CC-BY-SA"
+					(at 149.86 11.43 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+							(thickness 0.4318)
+							(bold yes)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "4"
+					(at 151.8708 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "4"
+					(at 151.8708 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "Seeed Studio"
+					(at 177.8 27.94 0)
+					(effects
+						(font
+							(size 6.4516 5.4838)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "TITLE:"
+					(at 177.8 19.05 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Design:"
+					(at 177.8 11.43 0)
+					(effects
+						(font
+							(size 2.032 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Date:"
+					(at 177.8 5.08 0)
+					(effects
+						(font
+							(size 2.032 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${CURRENT_DATE}"
+					(at 186.69 5.08 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${PROJECTNAME}"
+					(at 191.77 19.05 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "5"
+					(at 195.2625 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "5"
+					(at 195.2625 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "Check:"
+					(at 212.09 11.43 0)
+					(effects
+						(font
+							(size 2.032 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Vision:"
+					(at 212.09 5.08 0)
+					(effects
+						(font
+							(size 2.032 1.7272)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Sheet:"
+					(at 234.95 5.08 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "6"
+					(at 238.6542 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "6"
+					(at 238.6542 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "${#}/${##}"
+					(at 246.38 5.08 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "A"
+					(at 258.445 156.6863 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 258.445 111.9188 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 258.445 67.1513 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 258.445 22.3838 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 86.614 277.368 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "2d6996b6-df6c-4f02-b58a-ea2f9a16e3a2")
+	)
+	(text "ADC (A2)"
+		(exclude_from_sim no)
+		(at 227.33 269.24 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "49a29ab0-25da-4e87-8d81-c4048ed0c2a3")
+	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 165.862 304.038 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "4b0dec61-ce1d-438f-a4fa-c3135196ba63")
+	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 86.614 274.828 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "54d6b47e-ac8f-46da-b7bd-07d44fd7da18")
+	)
+	(text "ADC (A1)"
+		(exclude_from_sim no)
+		(at 227.33 242.57 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ee880c3-ff7c-4b8f-b459-76cc5bc20403")
+	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 88.646 301.752 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "7a8a41d3-472d-43a0-afb7-2c0b540f9154")
+	)
+	(text "Vincent"
+		(exclude_from_sim no)
+		(at 224.79 46.99 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cd4c082-94d0-4faf-8ad3-ac356503051d")
+	)
+	(text "UART0"
+		(exclude_from_sim no)
+		(at 70.612 270.256 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e5a0655-5b6e-4933-b07a-28337ea359f3")
+	)
+	(text "GPIO (D20)"
+		(exclude_from_sim no)
+		(at 148.59 242.57 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dac4d15-4770-41e6-851d-ed3cad3830b0")
+	)
+	(text "ADC (A0)"
+		(exclude_from_sim no)
+		(at 187.96 242.57 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "9078b2ff-8cae-47dd-a4f6-414afa4ce1de")
+	)
+	(text "2018/7/24"
+		(exclude_from_sim no)
+		(at 200.66 46.99 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "9701c0e0-a8ee-4bbb-9969-f390a19e25ac")
+	)
+	(text "Initial release"
+		(exclude_from_sim no)
+		(at 104.14 46.99 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "a05e8c72-126d-4953-b2b2-973126a25550")
+	)
+	(text "GPIO (D16)"
+		(exclude_from_sim no)
+		(at 68.58 242.57 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3a8af29-a78e-4ca2-9d39-1aa8ddd5b4a8")
+	)
+	(text "UART1"
+		(exclude_from_sim no)
+		(at 149.86 295.91 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd3e8987-0758-4903-b044-a219e618c347")
+	)
+	(text "I2C1"
+		(exclude_from_sim no)
+		(at 109.22 295.91 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "beb707f9-0d30-437d-bfbd-b1f62df054e5")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 127.254 304.292 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "bf35cbcb-7e9c-4980-b5b7-01621dc9df2a")
+	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 127.254 301.752 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "cbb3e870-e4d7-4383-9f35-58a8f930be3b")
+	)
+	(text "v1.0"
+		(exclude_from_sim no)
+		(at 241.3 193.04 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf59572d-2dad-43b5-a950-cd75c543a1b1")
+	)
+	(text "v1.0"
+		(exclude_from_sim no)
+		(at 241.3 553.72 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "d27d02c7-315d-40c7-bdf8-72d313d9e26f")
+	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 165.862 301.498 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "d5b12357-e7ba-4947-bc0d-022f00af9b88")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 88.646 304.292 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "d5f49923-6aac-4b90-93a6-a33a5f04c435")
+	)
+	(text "Vincent"
+		(exclude_from_sim no)
+		(at 208.28 186.69 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7a19e18-09fb-4942-857c-9d0fb491b4e0")
+	)
+	(text "GPIO (D18)"
+		(exclude_from_sim no)
+		(at 107.95 242.57 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "de15ad42-7a2c-4a52-a063-a0a91a5f5d81")
+	)
+	(text "v1.0"
+		(exclude_from_sim no)
+		(at 57.15 46.99 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecab2699-993d-4938-a0be-ecfcbb3927d4")
+	)
+	(text "I2C0"
+		(exclude_from_sim no)
+		(at 69.85 295.91 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0a0d3f6-411d-464a-9ab5-826e94d7c1ef")
+	)
+	(junction
+		(at 224.79 313.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47bbbd99-ea35-416d-bc86-a9acbd84e116")
+	)
+	(junction
+		(at 224.79 318.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2abfb71-f211-4224-993e-2f8ac19dc05a")
+	)
+	(junction
+		(at 224.79 316.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3bbf864-c2cb-49ba-b091-03b734c08636")
+	)
+	(wire
+		(pts
+			(xy 48.26 387.35) (xy 53.34 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c8b82a-6f05-4dc2-b1a8-344e9b24d3a7")
+	)
+	(wire
+		(pts
+			(xy 48.26 397.51) (xy 53.34 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fe84ec-3716-4b98-9fde-cef80a49719b")
+	)
+	(wire
+		(pts
+			(xy 76.2 307.34) (xy 91.44 307.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "03ffc30c-4d40-49d3-a832-2a8489e79c95")
+	)
+	(wire
+		(pts
+			(xy 177.8 347.98) (xy 195.58 347.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "052c3264-82cf-43d9-bb6a-46d660318631")
+	)
+	(wire
+		(pts
+			(xy 209.55 316.23) (xy 224.79 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076d2286-663c-43dc-987e-f3e608076c7d")
+	)
+	(wire
+		(pts
+			(xy 236.22 256.54) (xy 236.22 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a38c9d-48aa-49b0-bd72-55b8a2422550")
+	)
+	(wire
+		(pts
+			(xy 233.68 254) (xy 248.92 254)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c26fbd6-21e8-4a78-9b8f-385039792e06")
+	)
+	(wire
+		(pts
+			(xy 49.53 384.81) (xy 53.34 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100fa4c8-5638-4c7e-8f6e-a76871143ff5")
+	)
+	(wire
+		(pts
+			(xy 76.2 302.26) (xy 91.44 302.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "10711b0f-b8bf-4927-b052-b5cd1e007172")
+	)
+	(wire
+		(pts
+			(xy 48.26 367.03) (xy 53.34 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e99b39-4814-4568-b160-c0b1926f6458")
+	)
+	(wire
+		(pts
+			(xy 48.26 389.89) (xy 53.34 389.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee3ae1d-7e68-49fa-ae0b-3dde954d3dd0")
+	)
+	(wire
+		(pts
+			(xy 48.26 374.65) (xy 53.34 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200d7995-4090-41ea-932c-d5c0aaad677c")
+	)
+	(wire
+		(pts
+			(xy 101.6 389.89) (xy 107.95 389.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2312fac2-7987-4d71-a1a1-906cc256c76c")
+	)
+	(wire
+		(pts
+			(xy 76.2 309.88) (xy 80.01 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2379ef33-57f7-4986-a468-39c8d37a4e4b")
+	)
+	(wire
+		(pts
+			(xy 101.6 361.95) (xy 110.49 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dd56a1-ac15-4b65-86a8-c3a199b43495")
+	)
+	(wire
+		(pts
+			(xy 224.79 318.77) (xy 237.49 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26479f15-8ed7-4e53-8926-3015f99c99fd")
+	)
+	(wire
+		(pts
+			(xy 49.53 400.05) (xy 53.34 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ee10a2-71ee-4778-93e5-dfa34e6db2fe")
+	)
+	(wire
+		(pts
+			(xy 209.55 318.77) (xy 224.79 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299f53d9-6f8f-4c8e-a09b-a113eed54d12")
+	)
+	(wire
+		(pts
+			(xy 196.85 256.54) (xy 196.85 262.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2b2658f8-4488-4a95-b110-45a9685f8c15")
+	)
+	(wire
+		(pts
+			(xy 154.94 254) (xy 168.91 254)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c980206-01f9-47b9-8284-1e7ba7f79236")
+	)
+	(wire
+		(pts
+			(xy 194.31 251.46) (xy 209.55 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "31ea10af-a9b3-4840-99d0-ffe8e8fb7575")
+	)
+	(wire
+		(pts
+			(xy 101.6 382.27) (xy 105.41 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341fae1b-a87a-4aed-a06b-9b9872771d8a")
+	)
+	(wire
+		(pts
+			(xy 224.79 313.69) (xy 237.49 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347e8858-7723-483e-acc5-cdb01b10b25c")
+	)
+	(wire
+		(pts
+			(xy 48.26 361.95) (xy 53.34 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a3e757-8ccf-437d-9585-df678f17859e")
+	)
+	(wire
+		(pts
+			(xy 237.49 283.21) (xy 237.49 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3876a526-5a22-454e-a28a-cb7c83f7b446")
+	)
+	(wire
+		(pts
+			(xy 177.8 353.06) (xy 195.58 353.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "38f28217-09bb-403d-9de5-de2a52c7ec41")
+	)
+	(wire
+		(pts
+			(xy 48.26 382.27) (xy 53.34 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3902cf94-01d7-47b9-bae3-1a81954ca676")
+	)
+	(wire
+		(pts
+			(xy 49.53 372.11) (xy 53.34 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7391e5-c40d-481e-8592-192f46e4bd53")
+	)
+	(wire
+		(pts
+			(xy 101.6 369.57) (xy 110.49 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b70e499-2fc9-49cf-bb50-a883a4553aa6")
+	)
+	(wire
+		(pts
+			(xy 196.85 256.54) (xy 194.31 256.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40dfaa75-b1fb-4ec3-9343-b3ba47bfccba")
+	)
+	(wire
+		(pts
+			(xy 119.38 309.88) (xy 119.38 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41670fa3-4cdd-4512-9963-93c7c79d5280")
+	)
+	(wire
+		(pts
+			(xy 101.6 351.79) (xy 110.49 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b06864-ad85-49e0-90f1-ecaf28f20444")
+	)
+	(wire
+		(pts
+			(xy 101.6 392.43) (xy 110.49 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a327bfe-b3fd-4e14-9138-9dc1e5285d19")
+	)
+	(wire
+		(pts
+			(xy 115.57 251.46) (xy 130.81 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ee35cdc-3fe7-4121-b8aa-21d3a0654776")
+	)
+	(wire
+		(pts
+			(xy 76.2 275.59) (xy 90.17 275.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5aad862c-4e71-4262-9150-4e63f4d53337")
+	)
+	(wire
+		(pts
+			(xy 101.6 384.81) (xy 105.41 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1c7cb8-8887-4d4e-a6b9-69100003695d")
+	)
+	(wire
+		(pts
+			(xy 187.96 342.9) (xy 195.58 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c334d46-1b8c-4476-8827-c90b0392b287")
+	)
+	(wire
+		(pts
+			(xy 101.6 377.19) (xy 107.95 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3cc187-44e5-463b-b351-271f5ff5aede")
+	)
+	(wire
+		(pts
+			(xy 76.2 248.92) (xy 90.17 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e6e3d1c-13de-4508-bc6b-591286135976")
+	)
+	(wire
+		(pts
+			(xy 101.6 356.87) (xy 110.49 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbb63d8-56e5-4de2-a48e-a68e2cb3ff59")
+	)
+	(wire
+		(pts
+			(xy 48.26 369.57) (xy 53.34 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63be48fc-bbfc-40ca-9b24-3450c1f3aba6")
+	)
+	(wire
+		(pts
+			(xy 101.6 359.41) (xy 110.49 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6666a112-1205-4283-b787-226d12806cf6")
+	)
+	(wire
+		(pts
+			(xy 209.55 313.69) (xy 224.79 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ce3240-9475-4a5d-9a94-9193d0471c44")
+	)
+	(wire
+		(pts
+			(xy 154.94 248.92) (xy 168.91 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6a8e99e7-4f0c-4764-83fb-8b35dba45f18")
+	)
+	(wire
+		(pts
+			(xy 158.75 309.88) (xy 158.75 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba03efe-dfac-4ccd-982f-3396775d05a4")
+	)
+	(wire
+		(pts
+			(xy 233.68 280.67) (xy 248.92 280.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6f654c97-2bb3-465a-a0f1-6a89509e9c27")
+	)
+	(wire
+		(pts
+			(xy 101.6 364.49) (xy 110.49 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6faa885b-7c64-40c2-81e2-7462e1478b61")
+	)
+	(wire
+		(pts
+			(xy 48.26 379.73) (xy 53.34 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f460a6-05ca-4bd0-93c7-1e412b7f4fc4")
+	)
+	(wire
+		(pts
+			(xy 233.68 256.54) (xy 236.22 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df63f11-686a-4676-bb09-fdbe27639df5")
+	)
+	(wire
+		(pts
+			(xy 154.94 251.46) (xy 168.91 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7f3342e3-77dd-4164-baf2-600ac77db73d")
+	)
+	(wire
+		(pts
+			(xy 101.6 394.97) (xy 110.49 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82596b90-46fc-41bf-8130-74ddb1299ec0")
+	)
+	(wire
+		(pts
+			(xy 48.26 351.79) (xy 53.34 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83217593-7b1a-4adf-bfd0-5c0cf9024b90")
+	)
+	(wire
+		(pts
+			(xy 48.26 356.87) (xy 53.34 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84492e1f-6732-42bb-9e9a-cc2f5de531a0")
+	)
+	(wire
+		(pts
+			(xy 101.6 387.35) (xy 105.41 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8798f76d-4713-48c1-a761-e4e6520035bd")
+	)
+	(wire
+		(pts
+			(xy 48.26 392.43) (xy 53.34 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880ba4cd-91c8-4627-9d58-45e88fcbb654")
+	)
+	(wire
+		(pts
+			(xy 48.26 394.97) (xy 53.34 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90185d35-b3cf-49cb-8189-6e940ac03d41")
+	)
+	(wire
+		(pts
+			(xy 233.68 278.13) (xy 248.92 278.13)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "91ac3145-aad8-40d9-8149-06f62148784a")
+	)
+	(wire
+		(pts
+			(xy 194.31 254) (xy 209.55 254)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "931432b4-2068-4ddb-a1ef-3ee0adf9817d")
+	)
+	(wire
+		(pts
+			(xy 101.6 374.65) (xy 110.49 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b041a71-1fe7-481a-8322-9568c3821175")
+	)
+	(wire
+		(pts
+			(xy 101.6 354.33) (xy 107.95 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13d08ff-12cb-439f-8269-e3bedd131757")
+	)
+	(wire
+		(pts
+			(xy 49.53 364.49) (xy 53.34 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3119bb6-ead7-4cc3-92cb-86f276db35ee")
+	)
+	(wire
+		(pts
+			(xy 76.2 283.21) (xy 80.01 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a335f9f7-a355-464e-a740-5fc7b18ffaea")
+	)
+	(wire
+		(pts
+			(xy 194.31 248.92) (xy 209.55 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a4ab2c1f-0d0b-4f02-afc4-a02c0fb246b1")
+	)
+	(wire
+		(pts
+			(xy 101.6 397.51) (xy 110.49 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a771d861-427a-4e6f-abb4-ba479d77cbc8")
+	)
+	(wire
+		(pts
+			(xy 76.2 256.54) (xy 76.2 262.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a9c5c0c7-3cd4-444e-9341-159c7a8a722e")
+	)
+	(wire
+		(pts
+			(xy 48.26 377.19) (xy 53.34 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9efd49b-9d5f-4c01-a1a2-a7434d4b24b6")
+	)
+	(wire
+		(pts
+			(xy 158.75 256.54) (xy 158.75 262.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa238119-0b21-4fbb-9125-0a6f782896d0")
+	)
+	(wire
+		(pts
+			(xy 101.6 372.11) (xy 105.41 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5031ff-3aee-4768-80fa-8e8d0ec78ee3")
+	)
+	(wire
+		(pts
+			(xy 233.68 248.92) (xy 248.92 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b01e7e12-99ae-4fa7-999a-bfd999823671")
+	)
+	(wire
+		(pts
+			(xy 177.8 355.6) (xy 195.58 355.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b227831f-4e64-432c-ba3a-ba5a1b009497")
+	)
+	(wire
+		(pts
+			(xy 115.57 304.8) (xy 129.54 304.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b25c7f6a-ae31-4dc6-a179-1e2ee2655d37")
+	)
+	(wire
+		(pts
+			(xy 115.57 307.34) (xy 129.54 307.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b5eae07e-905c-41c9-b75e-29c8137733ca")
+	)
+	(wire
+		(pts
+			(xy 115.57 302.26) (xy 129.54 302.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba833b8c-178b-45b4-8cce-2fb47c19b752")
+	)
+	(wire
+		(pts
+			(xy 101.6 379.73) (xy 110.49 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2ab5d1-16fc-4047-be94-2e8d1d5251fe")
+	)
+	(wire
+		(pts
+			(xy 233.68 251.46) (xy 248.92 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bd1f3d88-de73-42d5-98a8-75ed994c413e")
+	)
+	(wire
+		(pts
+			(xy 154.94 307.34) (xy 168.91 307.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bd5b6813-a60c-4194-b913-81ccf4a68d1a")
+	)
+	(wire
+		(pts
+			(xy 46.99 354.33) (xy 53.34 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c840c184-e927-4326-b247-728c646cda29")
+	)
+	(wire
+		(pts
+			(xy 154.94 304.8) (xy 168.91 304.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c9561d4f-b133-4d60-a231-08a621a8ca96")
+	)
+	(wire
+		(pts
+			(xy 224.79 316.23) (xy 237.49 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f4e87f-8e17-4ec4-b77d-e6a648a1a0d9")
+	)
+	(wire
+		(pts
+			(xy 76.2 304.8) (xy 91.44 304.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d722f733-ef0b-483c-85cf-b5c4074016c9")
+	)
+	(wire
+		(pts
+			(xy 76.2 251.46) (xy 90.17 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d7943ac4-34ee-4ff8-b597-938ff06a951e")
+	)
+	(wire
+		(pts
+			(xy 80.01 309.88) (xy 80.01 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d876a9aa-5553-462b-82fa-fe9a0b4e173e")
+	)
+	(wire
+		(pts
+			(xy 76.2 254) (xy 90.17 254)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d8b17ed7-2463-4c1f-a3c7-15d88143227b")
+	)
+	(wire
+		(pts
+			(xy 115.57 248.92) (xy 130.81 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "da3d18cb-2a9e-4461-92ec-e243a7452cc9")
+	)
+	(wire
+		(pts
+			(xy 189.23 345.44) (xy 195.58 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dacf1244-1283-4789-811c-d8c743c1e0dd")
+	)
+	(wire
+		(pts
+			(xy 233.68 283.21) (xy 237.49 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db211d21-ccdd-4869-8b9f-3e605d7c91bc")
+	)
+	(wire
+		(pts
+			(xy 80.01 283.21) (xy 80.01 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df565c4c-3b4d-408d-a2c4-d4fe9aaaf363")
+	)
+	(wire
+		(pts
+			(xy 154.94 302.26) (xy 168.91 302.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "df846540-ef52-4042-97b1-036538b8bfce")
+	)
+	(wire
+		(pts
+			(xy 76.2 278.13) (xy 90.17 278.13)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e09e7d6c-daed-4b13-ba04-a8da9f72a0d3")
+	)
+	(wire
+		(pts
+			(xy 177.8 350.52) (xy 195.58 350.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e5f9ce51-69fb-4103-94c7-18872fb27dfc")
+	)
+	(wire
+		(pts
+			(xy 154.94 309.88) (xy 158.75 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9797d4a-72ae-483b-afc6-cb5cb5485be8")
+	)
+	(wire
+		(pts
+			(xy 115.57 254) (xy 130.81 254)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e9a5c439-5898-4126-9f95-08607e0487df")
+	)
+	(polyline
+		(pts
+			(xy 55.88 49.53) (xy 238.76 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ed53bfc2-e69d-441e-b756-834b823031ce")
+	)
+	(wire
+		(pts
+			(xy 101.6 400.05) (xy 110.49 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efec1ed1-5bf1-4ba4-82b8-905890ee0caa")
+	)
+	(wire
+		(pts
+			(xy 76.2 280.67) (xy 90.17 280.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f33360bc-ae99-46fe-ad4f-c5b4f6c441da")
+	)
+	(wire
+		(pts
+			(xy 101.6 367.03) (xy 107.95 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b230d8-6c93-4d29-91ca-a3f22154889d")
+	)
+	(wire
+		(pts
+			(xy 233.68 275.59) (xy 248.92 275.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f8e1e13c-f397-4fd3-ab75-f012c933de55")
+	)
+	(wire
+		(pts
+			(xy 45.72 359.41) (xy 53.34 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92581a5-8091-4a08-b93e-ffe24dcdd91d")
+	)
+	(wire
+		(pts
+			(xy 154.94 256.54) (xy 158.75 256.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fb83af79-2042-4d3e-a514-48d62dc8de9f")
+	)
+	(wire
+		(pts
+			(xy 115.57 256.54) (xy 115.57 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba5539e-75cc-43bb-a55c-c1bd315de7cf")
+	)
+	(wire
+		(pts
+			(xy 115.57 309.88) (xy 119.38 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf208aa-e2d9-405d-a496-62417dd5b967")
+	)
+	(label "GPIO8_Rp2040"
+		(at 110.49 400.05 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "01615a56-0ba3-47ff-8076-5fd3b8aad8f0")
+	)
+	(label "GPIO26_Rp2040"
+		(at 209.55 248.92 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "02691e0e-092f-4a62-9434-cb279a9ee990")
+	)
+	(label "GPIO20_Rp2040"
+		(at 48.26 369.57 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "21160f4b-514c-4921-b838-8e27812568b8")
+	)
+	(label "VCC"
+		(at 168.91 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "225ea849-9000-447b-93ba-4b9b345896c3")
+	)
+	(label "GPIO6_Rp2040"
+		(at 48.26 382.27 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "243bcaba-b24d-453c-85dc-a926c50014e3")
+	)
+	(label "GPIO19_Rp2040"
+		(at 105.41 372.11 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "2a4a3756-86da-41af-a603-81931ae85974")
+	)
+	(label "GPIO9_Rp2040"
+		(at 91.44 302.26 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b00766f-a5cf-4825-83f7-0e25bf315453")
+	)
+	(label "VCC"
+		(at 130.81 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32b9271f-8e1c-4807-87a1-e25841f56642")
+	)
+	(label "GPIO3_Rp2040"
+		(at 177.8 353.06 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right bottom)
+		)
+		(uuid "35579d55-7704-4cde-964b-815c2e847336")
+	)
+	(label "GPIO4_Rp2040"
+		(at 177.8 350.52 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right bottom)
+		)
+		(uuid "38c5606a-286b-46e1-9d31-fd5501048742")
+	)
+	(label "GPIO14_Rp2040"
+		(at 110.49 359.41 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "3bbedf47-c01e-43e1-bcb8-4fd5a03cb86b")
+	)
+	(label "3V3_GROVE"
+		(at 48.26 392.43 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "3e0015c8-52b6-4022-9ded-b7a6cfa7e6b5")
+	)
+	(label "3V3_GROVE"
+		(at 48.26 351.79 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "3ea85bed-4fdc-4b3d-98ff-ef1f6eb1cbc8")
+	)
+	(label "GPIO13_Rp2040"
+		(at 90.17 275.59 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "49f3db79-62ea-4c94-9879-95a29c0056ee")
+	)
+	(label "GPIO17_Rp2040"
+		(at 105.41 382.27 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "4d387c82-52af-4398-889a-d63915602be7")
+	)
+	(label "GPIO2_Rp2040"
+		(at 177.8 355.6 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fb38b37-be63-42aa-9ef9-6eb7cbc2c45e")
+	)
+	(label "GPIO8_Rp2040"
+		(at 91.44 304.8 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a62d6b1-e5ce-4732-828e-4f812e66be8d")
+	)
+	(label "NC"
+		(at 209.55 251.46 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d87c66c-debd-4a4a-9684-efc93d49746d")
+	)
+	(label "5V_GROVE"
+		(at 209.55 318.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "624b31f8-38c0-44d7-9d78-201a0869c82c")
+	)
+	(label "GPIO7_Rp2040"
+		(at 129.54 302.26 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "628f62bb-7a60-47b8-8e53-1fea4c76d474")
+	)
+	(label "GPIO7_Rp2040"
+		(at 110.49 379.73 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "6acb6afb-e2e3-40d1-acd3-2c474265c0e0")
+	)
+	(label "GPIO9_Rp2040"
+		(at 110.49 392.43 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "6e86370b-d38c-4261-94c7-6bf9576c5854")
+	)
+	(label "VCC"
+		(at 90.17 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fbc50a0-16cd-4951-a8d6-ae12115cab3d")
+	)
+	(label "3V3_GROVE"
+		(at 248.92 280.67 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "74f495ff-f019-41f6-87b0-57485a786b74")
+	)
+	(label "VCC"
+		(at 168.91 307.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "753b9155-2467-4d9d-bbd0-00c6a0b9067f")
+	)
+	(label "GPIO27_Rp2040"
+		(at 248.92 278.13 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "77d40de1-f9e2-459b-9966-ec99f49c2037")
+	)
+	(label "GPIO18_Rp2040"
+		(at 105.41 387.35 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "7911b2ca-0dde-4eb5-9ea2-e869c8fcab3e")
+	)
+	(label "GPIO6_Rp2040"
+		(at 129.54 304.8 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "80abe591-178c-4d30-9535-a564974f56f7")
+	)
+	(label "GPIO2_Rp2040"
+		(at 110.49 356.87 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "81d9b45b-262a-49b9-a342-abc7dee6ca84")
+	)
+	(label "GPIO16_Rp2040"
+		(at 105.41 384.81 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "840e6756-df2e-473e-81f1-cee914df4b81")
+	)
+	(label "GPIO11_Rp2040"
+		(at 48.26 397.51 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "842bc128-78fb-492e-823d-863b18f24936")
+	)
+	(label "GPIO21_Rp2040"
+		(at 168.91 251.46 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "8489af4d-a3c7-41f8-ba89-835f78695bba")
+	)
+	(label "GPIO4_Rp2040"
+		(at 48.26 367.03 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "8beead4a-4ed4-4a3e-827a-7ea865ed9558")
+	)
+	(label "GPIO10_Rp2040"
+		(at 110.49 394.97 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "8da3f65f-d8b1-474d-a30b-79cc10ec273e")
+	)
+	(label "GPIO21_Rp2040"
+		(at 48.26 374.65 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "97cca7b6-7f1a-40b5-8061-e52dd858a0b5")
+	)
+	(label "3V3_GROVE"
+		(at 248.92 254 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "99faa206-ecdf-4b7c-b8cc-16227acc406e")
+	)
+	(label "5V_GROVE"
+		(at 46.99 354.33 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "9b31e4bc-6a42-4287-8edd-021bcb0c769f")
+	)
+	(label "GPIO12_Rp2040"
+		(at 90.17 278.13 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cd2d2cb-c0ac-4f11-9514-9042fabe2548")
+	)
+	(label "GPIO27_Rp2040"
+		(at 248.92 248.92 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d1765af-5816-467a-bd1c-c673f2aa5ed2")
+	)
+	(label "VCC"
+		(at 91.44 307.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d6c0ff6-3dc8-458a-8951-4344ba919788")
+	)
+	(label "GPIO15_Rp2040"
+		(at 110.49 364.49 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "a25788a4-3a5b-4bef-93a5-9cfa6fecbe5c")
+	)
+	(label "5V_Grove"
+		(at 45.72 359.41 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "a53316ef-7481-48f4-9fe3-2163fde16e4a")
+	)
+	(label "GPIO22_Rp2040"
+		(at 48.26 389.89 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "a5e5220c-bd14-42ed-bf95-52785b90450e")
+	)
+	(label "GPIO28_Rp2040"
+		(at 48.26 356.87 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "a7c9211c-af0b-4ca9-b755-8415dd746f0e")
+	)
+	(label "GPIO5_Rp2040"
+		(at 48.26 377.19 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "ae69bdc9-6797-4dd4-9cd1-70720dc3b8d6")
+	)
+	(label "GPIO29_Rp2040"
+		(at 48.26 361.95 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "af25c4dc-f14d-4a18-82ae-6b70bbf93bdc")
+	)
+	(label "3V3_GROVE"
+		(at 189.23 345.44 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0e28305-1281-4afe-9857-7254a339472d")
+	)
+	(label "GPIO16_Rp2040"
+		(at 90.17 248.92 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3362212-e89a-458c-8808-326cffe5af00")
+	)
+	(label "GPIO4_Rp2040"
+		(at 168.91 304.8 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0dfec00-361b-48d4-ac0f-b99064ea53bb")
+	)
+	(label "GPIO23_Rp2040"
+		(at 48.26 379.73 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "c17e9aab-89ee-4c82-a38c-a2f49b2c3db8")
+	)
+	(label "VCC"
+		(at 209.55 316.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2f74753-ac7f-40a0-953e-d873a474d07d")
+	)
+	(label "VCC"
+		(at 129.54 307.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3d4dc5b-3007-4a09-929e-c249108bcafc")
+	)
+	(label "GPIO5_Rp2040"
+		(at 168.91 302.26 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "c885a0ef-525d-442d-84f0-4ddb47cd7c44")
+	)
+	(label "GPIO27_Rp2040"
+		(at 48.26 394.97 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "caf42be9-ea75-4257-8184-f9774a6d110e")
+	)
+	(label "GPIO25_Rp2040"
+		(at 110.49 351.79 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "cb56f26b-be7d-438f-9aa4-da30c9168b73")
+	)
+	(label "VCC"
+		(at 90.17 280.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbd6f5cf-93fe-4fbd-81ad-1a2b76fcd131")
+	)
+	(label "GPIO20_Rp2040"
+		(at 168.91 248.92 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccf62591-6464-4fee-a659-7030476a28c1")
+	)
+	(label "GPIO24_Rp2040"
+		(at 110.49 397.51 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "cdb95907-5076-40f5-8b65-f9b85dd8f0c9")
+	)
+	(label "GPIO17_Rp2040"
+		(at 90.17 251.46 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0908cf2-76ce-4e4a-a5c9-1e642ce2f333")
+	)
+	(label "GPIO13_Rp2040"
+		(at 110.49 369.57 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "d1e7db76-f115-4534-9ac5-6df53f55cf5a")
+	)
+	(label "GPIO26_Rp2040"
+		(at 248.92 251.46 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "d23f5710-6084-4b21-aba2-e1b8aff0e283")
+	)
+	(label "3V3_GROVE"
+		(at 209.55 313.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3d0bd01-8b7c-43c3-90ca-6d1b70f1ddde")
+	)
+	(label "GPIO19_Rp2040"
+		(at 130.81 251.46 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4c2dc97-53d6-4f37-a1b6-c172ddd33421")
+	)
+	(label "GPIO5_Rp2040"
+		(at 177.8 347.98 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right bottom)
+		)
+		(uuid "da866c69-b876-4005-b277-e4acc101ad21")
+	)
+	(label "GPIO26_Rp2040"
+		(at 110.49 361.95 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "dd098f9a-ac99-4734-9182-1e26da906e86")
+	)
+	(label "GPIO3_Rp2040"
+		(at 48.26 387.35 180)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify right)
+		)
+		(uuid "e51c20c5-9a83-4a94-acac-d0d37f0a5c91")
+	)
+	(label "GPIO28_Rp2040"
+		(at 248.92 275.59 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea2a67b7-0893-4089-84f6-4f24b9c7994e")
+	)
+	(label "GPIO18_Rp2040"
+		(at 130.81 248.92 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee31160c-85e7-467a-b1ba-b312d2740bfd")
+	)
+	(label "3V3_GROVE"
+		(at 209.55 254 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa9e080d-949e-400d-86a7-600b9afb8c3f")
+	)
+	(label "GPIO12_Rp2040"
+		(at 110.49 374.65 0)
+		(effects
+			(font
+				(size 0.6223 0.6223)
+			)
+			(justify left)
+		)
+		(uuid "fb192ebf-80f6-4239-974c-a99923163da3")
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 158.75 262.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11f739fc-d113-4f7c-bdad-9a7fec2e36b4")
+		(property "Reference" "#U$4"
+			(at 158.75 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 158.75 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54be81f9-e4d7-40d4-adbb-7981c27d698c")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 151.13 252.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a813b0e-9e66-4475-9658-1bf0fcc63d13")
+		(property "Reference" "J6"
+			(at 158.75 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 143.51 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 151.13 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3694ad4c-505a-4496-b380-3d2a892ea789")
+		)
+		(pin "2"
+			(uuid "0e6986ff-ad3e-42e5-8ae8-48d06e278bbc")
+		)
+		(pin "4"
+			(uuid "8240794e-12a3-4234-bf65-977b8f41f469")
+		)
+		(pin "3"
+			(uuid "e9a002c9-9e7b-4ddf-be95-43e92e3c384a")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 115.57 262.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b0f60dc-15d9-4dc9-9005-2783e8eaf941")
+		(property "Reference" "#U$3"
+			(at 115.57 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 115.57 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85691ab5-995b-4974-aa24-7dcabc0458a4")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 196.85 262.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2280e880-2c7b-4f4b-a240-cc4c4f76cbc3")
+		(property "Reference" "#U$26"
+			(at 196.85 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 196.85 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1c3cea1-de99-49bf-a1de-9d0b3c3a828b")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 107.95 367.03 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22ea552a-c85b-4a0d-8ead-fd7ffaab670a")
+		(property "Reference" "#U$012"
+			(at 107.95 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 107.95 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20f271ac-38b6-4258-99f0-9a2402993a0e")
+		)
+		(instances
+			(project "Radxa X4 Grove Base Hat"
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 80.01 316.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "265b24c6-c02f-46f1-87fa-e1a7bc71627f")
+		(property "Reference" "#U$5"
+			(at 80.01 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 80.01 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "893daa82-cae2-44cd-aa5f-fc2d5dfeeb50")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 190.5 252.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ca6f16b-909e-472a-92cb-24acba411ef6")
+		(property "Reference" "J12"
+			(at 197.866 244.602 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 182.88 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 190.5 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fae8ac5b-f66d-40e3-b941-2aa8ccc2866b")
+		)
+		(pin "2"
+			(uuid "071a4752-b634-4f7a-8d9c-9fc4d3290110")
+		)
+		(pin "3"
+			(uuid "2769d04b-89ee-468b-95d9-5ad3caa7bfdd")
+		)
+		(pin "4"
+			(uuid "40c8fe7c-856f-423e-9b9a-1586fb353d17")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 229.87 279.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "487ef5a0-b3d4-485a-889b-621c6ef8a22a")
+		(property "Reference" "J3"
+			(at 228.6 278.13 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 222.25 288.29 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 229.87 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9bc7404f-c0b1-4a2c-9e07-67d0004de044")
+		)
+		(pin "2"
+			(uuid "fb267296-ffc6-4d86-8444-95b93ad6eb40")
+		)
+		(pin "3"
+			(uuid "528aee89-78c8-4494-b0bc-d700d61ecba8")
+		)
+		(pin "1"
+			(uuid "edca5356-1ada-481c-a952-d8bfc4927d8c")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 111.76 252.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4decda1c-39ce-413c-a136-5687081d3048")
+		(property "Reference" "J5"
+			(at 119.38 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 104.14 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 111.76 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b1cbffea-aa16-4587-8745-e3da48ba0d37")
+		)
+		(pin "1"
+			(uuid "f53ec03b-df07-4123-be0f-cfbd4dd766d2")
+		)
+		(pin "2"
+			(uuid "eef471b2-73db-4547-b950-7ab4d235f69a")
+		)
+		(pin "3"
+			(uuid "995f6ded-9f07-47c1-a547-2aea26e087a2")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 76.2 262.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52891a0c-a220-40aa-9d28-b1ea4ac28e85")
+		(property "Reference" "#U$23"
+			(at 76.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 76.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3ca5383-71cb-4131-a854-5a10a4a01324")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 49.53 364.49 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53f2ca18-a561-453d-952a-0c202bb067c8")
+		(property "Reference" "#U$07"
+			(at 49.53 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 49.53 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dcc593e-5bff-4de9-bdff-ee2b9d7f9275")
+		)
+		(instances
+			(project "Radxa X4 Grove Base Hat"
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 49.53 372.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a0039ed-9fae-4059-ae2c-60d2849759c5")
+		(property "Reference" "#U$08"
+			(at 49.53 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 49.53 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "637b6ba3-dbc7-4963-a427-59fcb2df2010")
+		)
+		(instances
+			(project "Radxa X4 Grove Base Hat"
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 151.13 306.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c9e15aa-2f26-4dae-9e6a-f65d34fff060")
+		(property "Reference" "J11"
+			(at 158.75 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 143.51 314.96 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 151.13 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da2ad99b-efcd-4b54-84e0-a3146e7da4f5")
+		)
+		(pin "3"
+			(uuid "4376e670-04b8-4994-8c28-a2551bc9a9a2")
+		)
+		(pin "1"
+			(uuid "1681058e-1688-453a-a71c-be19fc8096cd")
+		)
+		(pin "4"
+			(uuid "2f713a19-2642-41fb-b8df-edb68eac41ad")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 158.75 316.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "706dd39e-b6ce-4387-91a6-49e87aae3567")
+		(property "Reference" "#U$15"
+			(at 158.75 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 158.75 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8334d147-55f4-456e-b692-aa46d9bbbb70")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 72.39 252.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "782025c4-6e21-478c-b081-5ae8eb0a14af")
+		(property "Reference" "J2"
+			(at 80.01 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 64.77 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 72.39 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f50b71f-3d6c-450c-a8af-f7fc844662ff")
+		)
+		(pin "3"
+			(uuid "847a2d00-3eb1-4c37-a505-860563617527")
+		)
+		(pin "4"
+			(uuid "e78aa3ed-8aba-4fcd-8a49-e7c9053c1886")
+		)
+		(pin "2"
+			(uuid "6f150127-e5fb-4059-b24b-17f8693c8e4a")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:SEEDSTUDIO-SCH-MODLIST")
+		(at 55.88 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d52e149-5513-4c25-a5ab-67b97cf74496")
+		(property "Reference" "#U$68"
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SEEDSTUDIO-SCH-MODLIST"
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 107.95 354.33 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "943a8aaa-9b46-43b9-8b2a-dea43d02670b")
+		(property "Reference" "#U$011"
+			(at 107.95 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 107.95 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84631d8d-d7d5-42bc-91c5-a014c03ecb6c")
+		)
+		(instances
+			(project "Radxa X4 Grove Base Hat"
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 72.39 279.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "947e1094-e74a-4409-a19e-4255699714d6")
+		(property "Reference" "J14"
+			(at 80.01 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 64.77 288.29 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 72.39 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "89db6a4b-0b7b-4977-a596-8f1b201cf25a")
+		)
+		(pin "1"
+			(uuid "7df68ac1-5079-4575-85a4-cfe696d09707")
+		)
+		(pin "2"
+			(uuid "cc643c59-20f4-46d8-9194-2a5a1f354f36")
+		)
+		(pin "3"
+			(uuid "8a38d8e7-c7ba-4d93-a49a-00dec9dd826d")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RadxaX4:PIN_PITCH_2.54MM_2X3")
+		(at 200.66 347.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "983ed1d3-911b-4196-9b39-830503d0d868")
+		(property "Reference" "J1"
+			(at 207.01 347.345 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PIN_PITCH_2.54MM_2X3"
+			(at 207.01 351.155 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RadxaX4:PIN6_PITCH_2.54MM_2X3"
+			(at 200.66 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a440f094-931c-4bf5-914c-2cc84a771bca")
+		)
+		(pin "5"
+			(uuid "c32a26ab-2eee-4710-bef3-afc1b260f9ee")
+		)
+		(pin "1"
+			(uuid "ac6671f9-090a-4a8a-a904-bd5a001b5eac")
+		)
+		(pin "6"
+			(uuid "430a9fa9-ba2d-4358-854e-0eb61012423b")
+		)
+		(pin "2"
+			(uuid "640e7170-8c80-4bc3-9c69-da8758fbb294")
+		)
+		(pin "4"
+			(uuid "c5e31dd5-b487-4779-966e-dc3a820e7f00")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 107.95 377.19 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a28064ca-eb7f-4b54-b04d-66f50c0d0c69")
+		(property "Reference" "#U$013"
+			(at 107.95 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 107.95 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d4221c9-01cb-4f40-9168-b3b07185f372")
+		)
+		(instances
+			(project "Radxa X4 Grove Base Hat"
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 49.53 384.81 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a46424cc-d54d-4f4b-9460-75df6446010e")
+		(property "Reference" "#U$010"
+			(at 49.53 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 49.53 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cad76d8f-2658-48a9-99a6-962da85b5f26")
+		)
+		(instances
+			(project "Radxa X4 Grove Base Hat"
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 187.96 342.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b11d6dcd-15fa-4b77-a0f5-bf19e8f8ff96")
+		(property "Reference" "#U$18"
+			(at 187.96 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 187.96 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2b8c285-c669-4b9c-b47e-157309f71f97")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:SWITCH-2CH-6P'90D'")
+		(at 231.14 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1f48810-8e88-4881-9dc8-a7f4a95b5116")
+		(property "Reference" "SW1"
+			(at 227.33 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 227.33 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:6P-2CH-2.5-9.1X3.5X3.2H-90D"
+			(at 231.14 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CH1A"
+			(uuid "0c7f75bc-b166-4397-aac2-92011d718f7d")
+		)
+		(pin "COM1"
+			(uuid "506a4c67-43f0-4977-8046-8693df2b8a34")
+		)
+		(pin "CH1B"
+			(uuid "5ade50b5-ab40-4849-bff8-83c5e5c6d01e")
+		)
+		(pin "CH2B"
+			(uuid "74d9dfe7-1f7b-4103-bc8b-47fb099aa49d")
+		)
+		(pin "COM2"
+			(uuid "b3c1aa49-60cd-4f2d-ae0b-6b678ecaeda2")
+		)
+		(pin "CH2A"
+			(uuid "64566269-3def-4aa9-abdb-51e8d65a243e")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 236.22 262.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b30518b7-0cc2-4676-bd03-024087a9a9a5")
+		(property "Reference" "#U$2"
+			(at 236.22 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 236.22 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf35d456-3bca-4654-8346-821b08af5bfe")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 237.49 289.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b987bb56-f9d2-4a6f-a301-fb6b37461b34")
+		(property "Reference" "#U$1"
+			(at 237.49 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 237.49 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddfc938d-3b43-47b1-906b-f07c7ef101ad")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 49.53 400.05 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "badf10be-630f-4b82-a3dd-c02ae167cecc")
+		(property "Reference" "#U$09"
+			(at 49.53 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 49.53 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb7db497-838a-4ab3-a106-93648b9c576d")
+		)
+		(instances
+			(project "Radxa X4 Grove Base Hat"
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 80.01 289.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1a1864f-0378-4a23-853c-5ec730cdde88")
+		(property "Reference" "#U$29"
+			(at 80.01 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 80.01 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab313ba2-bd3b-4b69-af32-30b59c2774de")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:SEEEDSTUDIO-OPEN-SCH-FRAME")
+		(at 17.78 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c920a595-6a30-4222-9b41-88e9e94db6aa")
+		(property "Reference" "FR2"
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SEEEDSTUDIO-OPEN-SCH-FRAME"
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Raspberry Pi Grove Base HAT v1.0:SEEEDSTUDIO-PCB-FRAME"
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "FR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 107.95 389.89 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c925f258-84fa-4bef-ac5f-5935196480dc")
+		(property "Reference" "#U$014"
+			(at 107.95 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 107.95 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de9507dc-5289-4302-b4e6-6b37dd782a7b")
+		)
+		(instances
+			(project "Radxa X4 Grove Base Hat"
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:Raxda-RPiPico-65X56")
+		(at 76.2 382.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb32658c-6cda-4e85-804e-40a3d0ac3b71")
+		(property "Reference" "U2"
+			(at 55.88 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2x20 2.54"
+			(at 55.88 348.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Raspberry Pi Grove Base HAT v1.0:RASPI_BOARD_B+HAT_DF_CF"
+			(at 76.2 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "ed368eba-7b2a-4779-8340-89179a7ce585")
+		)
+		(pin "13"
+			(uuid "c6dc5796-2bb6-44a3-a35e-8de02e4c3c11")
+		)
+		(pin "7"
+			(uuid "ed9ab16c-667d-4480-853b-ea99eac3274a")
+		)
+		(pin "11"
+			(uuid "3b4fe8da-c0ac-4957-9a15-cb94ba2f5e71")
+		)
+		(pin "19"
+			(uuid "c43334f4-52c0-4735-87d8-ae2f1e2c3a59")
+		)
+		(pin "8"
+			(uuid "00cfb1a7-c215-4592-b498-13ef4eb1567a")
+		)
+		(pin "5"
+			(uuid "b59940e9-9506-41fe-804b-94c4702980ad")
+		)
+		(pin "12"
+			(uuid "1dc731cc-1a6f-4dd8-b7b5-18883934ea1a")
+		)
+		(pin "14"
+			(uuid "466cdbf9-8d31-4712-9b57-969bddaf90fb")
+		)
+		(pin "18"
+			(uuid "81d95607-a278-4ed9-9121-ce878954321f")
+		)
+		(pin "20"
+			(uuid "521b1e9a-d26c-4c2f-8d5e-b5de7a5eacca")
+		)
+		(pin "22"
+			(uuid "6a0b7c0f-6d81-4376-b630-656bca46f5ac")
+		)
+		(pin "16"
+			(uuid "90dfb6da-49e7-43eb-94e5-c8a2295be575")
+		)
+		(pin "24"
+			(uuid "43667896-371a-4d45-a1fc-5d5210c45ea9")
+		)
+		(pin "26"
+			(uuid "4c5b7bf0-74c4-4855-99a6-5fe6337a5313")
+		)
+		(pin "28"
+			(uuid "36f4022e-bcbb-4136-ad36-f1f272ae40ea")
+		)
+		(pin "25"
+			(uuid "1e8727fe-fe07-4b91-aea0-b978acd0f2e0")
+		)
+		(pin "1"
+			(uuid "699f342f-87cc-4305-b63e-150f9af36236")
+		)
+		(pin "33"
+			(uuid "58870272-a39a-4f79-b293-8835cdc8cd2e")
+		)
+		(pin "23"
+			(uuid "24aa6a49-c249-4678-be19-0e182dcad6b1")
+		)
+		(pin "3"
+			(uuid "4126b965-b113-48d4-89e4-379e97e25dd3")
+		)
+		(pin "27"
+			(uuid "eaafad15-133f-4309-aff9-0a70c102070f")
+		)
+		(pin "29"
+			(uuid "617244f8-c24e-4e81-96db-a8727b0842e9")
+		)
+		(pin "15"
+			(uuid "61d404e5-961b-46d5-a7a8-a879b93d0df9")
+		)
+		(pin "17"
+			(uuid "4d8bde2f-91e9-47ba-bab8-08ca1ebf3988")
+		)
+		(pin "21"
+			(uuid "ea62c5f3-f2bd-4c65-b035-eb3dfd36ef87")
+		)
+		(pin "31"
+			(uuid "e0c65e5d-4161-4550-b36c-e6c7692e5e5d")
+		)
+		(pin "35"
+			(uuid "8b1eba59-43c8-4965-bbc2-25651dc00a65")
+		)
+		(pin "37"
+			(uuid "134682e9-865e-4279-a402-7185810c53e1")
+		)
+		(pin "39"
+			(uuid "640dfbe3-37ab-48d1-9bf8-94b8be7a287f")
+		)
+		(pin "2"
+			(uuid "833af730-db53-42cb-894f-7dc5758f9be2")
+		)
+		(pin "4"
+			(uuid "b0e5a00c-349c-493f-8f73-8d87834de1af")
+		)
+		(pin "6"
+			(uuid "ac726043-a97d-4ab3-83b4-54102686103d")
+		)
+		(pin "10"
+			(uuid "1b1dd2b3-fc2d-4c30-89c9-334fbeef383b")
+		)
+		(pin "40"
+			(uuid "0c82c439-942c-4d28-b034-b4cff9b5a196")
+		)
+		(pin "32"
+			(uuid "5c900047-91fa-422f-abdb-d967fa4288bc")
+		)
+		(pin "34"
+			(uuid "9f7aaee8-47f0-4fb7-8536-98731860ca24")
+		)
+		(pin "30"
+			(uuid "1851dd7f-e81d-49ad-86aa-66b40f59a2e7")
+		)
+		(pin "38"
+			(uuid "fcf7ad8c-39be-444f-9fa7-3c5f99357fad")
+		)
+		(pin "36"
+			(uuid "4aadb9c7-5e5e-4296-af32-47882058c10f")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 111.76 306.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdf5bb28-a205-4bdd-ab6b-22fc7064a8dd")
+		(property "Reference" "J10"
+			(at 119.38 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 104.14 314.96 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 111.76 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aca8170a-992b-4a99-9b2d-b79818ac13a1")
+		)
+		(pin "3"
+			(uuid "34d38f0f-f9fa-42ea-a4db-d5adbb56bae5")
+		)
+		(pin "4"
+			(uuid "2034d9f1-d1e6-4c45-8b99-9256847855a8")
+		)
+		(pin "2"
+			(uuid "63a1dc6b-311f-47be-9596-9b2ce4fa7dd7")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 72.39 306.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed4a208e-8fe7-4cac-bfea-14e943869abf")
+		(property "Reference" "J9"
+			(at 80.01 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 64.77 314.96 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 72.39 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce37aa93-7635-496e-a19a-0703e325a626")
+		)
+		(pin "1"
+			(uuid "1dba3a28-175e-4f1a-894a-972127a739c4")
+		)
+		(pin "3"
+			(uuid "de468235-c7e2-4ce1-bb20-ba739aa8666c")
+		)
+		(pin "4"
+			(uuid "2644f8d8-347b-4707-8519-5f9241a83d84")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Grove_shield_for_PI PICO v1.0-eagle-import:TWIG-4P-2.0-2.0")
+		(at 229.87 252.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2a19a5e-589a-45e6-9c5c-9fc0bb77db84")
+		(property "Reference" "J4"
+			(at 228.6 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "4P-2.0;320110030"
+			(at 222.25 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Grove_shield_for_PI PICO v1.0:4P-2.0"
+			(at 229.87 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ef0a612-57a2-4f6c-94e4-b725c2e3b3ba")
+		)
+		(pin "4"
+			(uuid "c3263315-a2f3-465a-a51b-eb66c1670522")
+		)
+		(pin "2"
+			(uuid "ec13a9be-e0be-47d4-887d-dc2a20e8c4d7")
+		)
+		(pin "3"
+			(uuid "3220e049-94e0-417e-969e-2109dd267997")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Raspberry Pi Grove Base HAT v1.0-eagle-import:GND_POWER")
+		(at 119.38 316.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f38eebff-72a0-4aa0-9be1-6a89534f2e7f")
+		(property "Reference" "#U$6"
+			(at 119.38 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_POWER"
+			(at 119.38 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb0e8372-5faa-4f37-9818-3f088fe78ce9")
+		)
+		(instances
+			(project ""
+				(path "/4f5f2ed7-ace1-4cf7-9c45-b3ceb9f5b14a"
+					(reference "#U$6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

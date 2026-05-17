@@ -1,0 +1,66 @@
+(footprint "SEEEDSTUDIO-PCB-FRAME"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "dd46b7cd-a9a4-4db4-afaf-5506792a4d06")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "113f6f97-8abc-446e-aa7b-6df515ce2777")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6861d654-c99e-491b-b4a1-2d0326ab2a20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e34ac88-097d-4e5f-88a9-77cba735d658")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "This work is licensed under the Creative Commons Attribution 4.0 International License.\nTo view a copy of this license,visit:\nhttp://creativecommons.org/licenses/by-sa/4.0/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Cu")
+		(uuid "72276984-3da0-4ca7-b5be-8cddc220c576")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)

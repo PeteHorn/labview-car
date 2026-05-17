@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Raspberry Pi Grove Base HAT v1.0")(type "KiCad")(uri "$(KIPRJMOD)/Radxa X4 Grove Base Hat V1_1.pretty")(options "")(descr ""))
+  (lib (name "Radxa X4 Grove Base Hat")(type "KiCad")(uri "${KIPRJMOD}/Radxa X4 Grove Base Hat V1_1.pretty")(options "")(descr ""))
+  (lib (name "Kicad")(type "KiCad")(uri "C:/Users/swatt/OneDrive/Desktop/Radxa/PCB/Grove_Shield_for_Pi_Pico_SCH & PCB/Kicad.pretty")(options "")(descr ""))
+  (lib (name "Grove_shield_for_PI PICO v1.0")(type "KiCad")(uri "C:/Users/swatt/OneDrive/Desktop/Radxa/PCB/Grove_Shield_for_Pi_Pico_SCH & PCB/Kicad/Grove_shield_for_PI PICO v1.0.pretty")(options "")(descr ""))
+)
