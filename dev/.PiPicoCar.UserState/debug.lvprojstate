@@ -1,5 +1,48 @@
 <Configuration>
   <Target name="My Computer">
     <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="Car-motor-poc.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="2023"/>
+          <SignalUID value="2172"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Motor.lvlib:Motor.lvclass:Pre Launch Init.vi:2610001">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="1574"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Motor.lvlib:Motor.lvclass:Set Speed.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="856"/>
+          <SignalUID value="845"/>
+          <SignalUID value="664"/>
+          <SignalUID value="937"/>
+        </Generic>
+      </Probes>
+    </VI>
   </Target>
 </Configuration>

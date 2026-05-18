@@ -15,6 +15,13 @@
 		<Item Name="Actors" Type="Folder">
 			<Item Name="Motor.lvlib" Type="Library" URL="../Motor/Motor.lvlib"/>
 		</Item>
+		<Item Name="Dependencies" Type="Folder">
+			<Item Name="CTIPicoVISA.lvlib" Type="Library" URL="../../CTI-Grove/Examples/Sourcecode/cti-drivers-lv-visa-simple/Examples/Driver/CTIPicoVISA.lvlib"/>
+		</Item>
+		<Item Name="PoC" Type="Folder">
+			<Item Name="Car-motor-poc.vi" Type="VI" URL="../../poc/Car-motor-poc.vi"/>
+			<Item Name="Car-servo-poc.vi" Type="VI" URL="../../poc/Car-servo-poc.vi"/>
+		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Motor Controller.vi" Type="VI" URL="../Testers/Test Motor Controller.vi"/>
 		</Item>
