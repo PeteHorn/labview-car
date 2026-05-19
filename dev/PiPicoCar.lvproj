@@ -13,6 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actors" Type="Folder">
+			<Item Name="Line Tracker.lvlib" Type="Library" URL="../Line Tracker/Line Tracker.lvlib"/>
 			<Item Name="Motor.lvlib" Type="Library" URL="../Motor/Motor.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Folder">
@@ -21,10 +22,15 @@
 		<Item Name="PoC" Type="Folder">
 			<Item Name="Car-motor-poc.vi" Type="VI" URL="../../poc/Car-motor-poc.vi"/>
 			<Item Name="Car-servo-poc.vi" Type="VI" URL="../../poc/Car-servo-poc.vi"/>
+			<Item Name="Car-tracking-poc.vi" Type="VI" URL="../../poc/Car-tracking-poc.vi"/>
+			<Item Name="Car-ultrasonic-poc.vi" Type="VI" URL="../../poc/Car-ultrasonic-poc.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Motor Controller.vi" Type="VI" URL="../Testers/Test Motor Controller.vi"/>
 		</Item>
+		<Item Name="Test Line Tracker Controller.vi" Type="VI" URL="../Testers/Test Line Tracker Controller.vi"/>
+		<Item Name="Tracking Values.ctl" Type="VI" URL="../Line Tracker/Line Tracker/Tracking Values.ctl"/>
+		<Item Name="User Events.ctl" Type="VI" URL="../Line Tracker/Line Tracker/User Events.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -15,6 +15,21 @@
         </Generic>
       </Probes>
     </VI>
+    <VI name="Line Tracker.lvlib:Line Tracker.lvclass:Actor Core.vi:5880001">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="2586"/>
+          <SignalUID value="2556"/>
+          <SignalUID value="2451"/>
+        </Generic>
+      </Probes>
+    </VI>
     <VI name="Motor.lvlib:Motor.lvclass:Pre Launch Init.vi:2610001">
       <Breakpoints>
         <NodeIndexes>
