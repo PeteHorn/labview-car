@@ -15,6 +15,32 @@
         </Generic>
       </Probes>
     </VI>
+    <VI name="LED Matrix.lvlib:LED Matrix.lvclass:String to Hex Array.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="2735"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="LED Matrix.lvlib:LED Matrix.lvclass:String to Str Hex Array.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="347"/>
+        </Generic>
+      </Probes>
+    </VI>
     <VI name="Line Tracker.lvlib:Line Tracker.lvclass:Actor Core.vi:5880001">
       <Breakpoints>
         <NodeIndexes>
@@ -27,6 +53,22 @@
           <SignalUID value="2586"/>
           <SignalUID value="2556"/>
           <SignalUID value="2451"/>
+          <SignalUID value="1884"/>
+          <SignalUID value="479"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Line Tracker.lvlib:Line Tracker.lvclass:Constructor.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="387"/>
+          <SignalUID value="398"/>
         </Generic>
       </Probes>
     </VI>
