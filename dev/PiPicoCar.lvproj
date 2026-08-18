@@ -25,6 +25,7 @@
 			<Item Name="Car-servo-poc.vi" Type="VI" URL="../../poc/Car-servo-poc.vi"/>
 			<Item Name="Car-tracking-poc.vi" Type="VI" URL="../../poc/Car-tracking-poc.vi"/>
 			<Item Name="Car-ultrasonic-poc.vi" Type="VI" URL="../../poc/Car-ultrasonic-poc.vi"/>
+			<Item Name="LED-Matrix-poc.vi" Type="VI" URL="../../poc/LED-Matrix-poc.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Line Tracker Controller.vi" Type="VI" URL="../Testers/Test Line Tracker Controller.vi"/>

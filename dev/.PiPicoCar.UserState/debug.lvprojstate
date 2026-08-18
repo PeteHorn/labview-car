@@ -37,7 +37,19 @@
       </Breakpoints>
       <Probes>
         <Generic>
-          <SignalUID value="347"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="LED-Matrix-poc.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="2626"/>
         </Generic>
       </Probes>
     </VI>
