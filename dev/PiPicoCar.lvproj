@@ -28,9 +28,12 @@
 			<Item Name="LED-Matrix-poc.vi" Type="VI" URL="../../poc/LED-Matrix-poc.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
+			<Item Name="Test LED Matrix.vi" Type="VI" URL="../Testers/Test LED Matrix.vi"/>
 			<Item Name="Test Line Tracker Controller.vi" Type="VI" URL="../Testers/Test Line Tracker Controller.vi"/>
 			<Item Name="Test Motor Controller.vi" Type="VI" URL="../Testers/Test Motor Controller.vi"/>
 		</Item>
+		<Item Name="Repetition.ctl" Type="VI" URL="../LED Matrix/Content/Repetition.ctl"/>
+		<Item Name="Timing.ctl" Type="VI" URL="../LED Matrix/Content/Timing.ctl"/>
 		<Item Name="Tracking Values.ctl" Type="VI" URL="../Line Tracker/Line Tracker/Tracking Values.ctl"/>
 		<Item Name="User Events.ctl" Type="VI" URL="../Line Tracker/Line Tracker/User Events.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>

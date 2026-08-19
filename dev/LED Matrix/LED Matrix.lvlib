@@ -4,6 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">637566976</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Content" Type="Folder">
+		<Item Name="Content.lvclass" Type="LVClass" URL="../Content/Content.lvclass"/>
+		<Item Name="Text.lvclass" Type="LVClass" URL="../Text/Text.lvclass"/>
+	</Item>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Set Configuration Msg.lvclass" Type="LVClass" URL="../LED Matrix Messages/Set Configuration Msg/Set Configuration Msg.lvclass"/>
+	</Item>
 	<Item Name="LED Matrix.lvclass" Type="LVClass" URL="../LED Matrix/LED Matrix.lvclass"/>
 </Library>

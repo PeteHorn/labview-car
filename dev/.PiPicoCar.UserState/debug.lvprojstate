@@ -15,7 +15,7 @@
         </Generic>
       </Probes>
     </VI>
-    <VI name="LED Matrix.lvlib:LED Matrix.lvclass:String to Hex Array.vi">
+    <VI name="LED Matrix.lvlib:LED Matrix.lvclass:Actor Core.vi:5880001">
       <Breakpoints>
         <NodeIndexes>
         </NodeIndexes>
@@ -24,20 +24,13 @@
       </Breakpoints>
       <Probes>
         <Generic>
-          <SignalUID value="2735"/>
+          <SignalUID value="633"/>
+          <SignalUID value="3401"/>
+          <SignalUID value="3415"/>
         </Generic>
-      </Probes>
-    </VI>
-    <VI name="LED Matrix.lvlib:LED Matrix.lvclass:String to Str Hex Array.vi">
-      <Breakpoints>
-        <NodeIndexes>
-        </NodeIndexes>
-        <SignalIndexes>
-        </SignalIndexes>
-      </Breakpoints>
-      <Probes>
-        <Generic>
-        </Generic>
+        <Smart>
+          <Probe signalUID="2495" menuID="-1" itemID="-1" path="/usr/local/natinst/LabVIEW-2026-64/vi.lib/_probes/default/StringProbe.vi"/>
+        </Smart>
       </Probes>
     </VI>
     <VI name="LED-Matrix-poc.vi">
