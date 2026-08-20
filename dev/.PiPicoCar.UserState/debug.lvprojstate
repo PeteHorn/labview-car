@@ -15,6 +15,21 @@
         </Generic>
       </Probes>
     </VI>
+    <VI name="LED Matrix.lvlib:LED Matrix.lvclass:Actor Core.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+        </Generic>
+        <Smart>
+          <Probe signalUID="4067" menuID="-1" itemID="-1" path="/usr/local/natinst/LabVIEW-2026-64/vi.lib/_probes/default/StringProbe.vi"/>
+        </Smart>
+      </Probes>
+    </VI>
     <VI name="LED Matrix.lvlib:LED Matrix.lvclass:Actor Core.vi:5880001">
       <Breakpoints>
         <NodeIndexes>
@@ -27,9 +42,29 @@
           <SignalUID value="633"/>
           <SignalUID value="3401"/>
           <SignalUID value="3415"/>
+          <SignalUID value="3226"/>
         </Generic>
         <Smart>
           <Probe signalUID="2495" menuID="-1" itemID="-1" path="/usr/local/natinst/LabVIEW-2026-64/vi.lib/_probes/default/StringProbe.vi"/>
+          <Probe signalUID="3383" menuID="-1" itemID="-1" path="/usr/local/natinst/LabVIEW-2026-64/vi.lib/_probes/default/StringProbe.vi" displayName="string"/>
+          <Probe signalUID="3232" menuID="-1" itemID="-1" path="/usr/local/natinst/LabVIEW-2026-64/vi.lib/_probes/default/StringProbe.vi"/>
+          <Probe signalUID="3314" menuID="-1" itemID="-1" path="/usr/local/natinst/LabVIEW-2026-64/vi.lib/_probes/default/ConditionalErrorProbe.vi"/>
+        </Smart>
+      </Probes>
+    </VI>
+    <VI name="LED Matrix.lvlib:Text.lvclass:String to Boolean Array.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+        </Generic>
+        <Smart>
+          <Probe signalUID="1167" menuID="-1" itemID="-1" path="/usr/local/natinst/LabVIEW-2026-64/vi.lib/_probes/default/StringProbe.vi"/>
+          <Probe signalUID="1272" menuID="-1" itemID="-1" path="/usr/local/natinst/LabVIEW-2026-64/vi.lib/_probes/default/StringProbe.vi"/>
         </Smart>
       </Probes>
     </VI>
